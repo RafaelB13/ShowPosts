@@ -73,9 +73,6 @@ public class JsonPostTask extends AsyncTask<String, Void, List<Post>> {
             is = new BufferedInputStream(inputStream);
 
 
-//            JSONArray jsonObject = new JSONArray(jsonAsString);
-//            Log.d("Teste", "asdasdasd");
-
 
             List<Post> posts = getPosts();
 
